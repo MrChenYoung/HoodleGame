@@ -8,26 +8,38 @@
 
 /* Begin PBXBuildFile section */
 		FFEDAB7C2258B0050096CF58 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFEDAB7B2258B0050096CF58 /* AppDelegate.swift */; };
-		FFEDAB7E2258B0050096CF58 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = FFEDAB7D2258B0050096CF58 /* GameScene.sks */; };
-		FFEDAB802258B0050096CF58 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = FFEDAB7F2258B0050096CF58 /* Actions.sks */; };
 		FFEDAB822258B0050096CF58 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFEDAB812258B0050096CF58 /* GameScene.swift */; };
 		FFEDAB842258B0050096CF58 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFEDAB832258B0050096CF58 /* GameViewController.swift */; };
 		FFEDAB872258B0050096CF58 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFEDAB852258B0050096CF58 /* Main.storyboard */; };
 		FFEDAB892258B0060096CF58 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFEDAB882258B0060096CF58 /* Assets.xcassets */; };
 		FFEDAB8C2258B0060096CF58 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFEDAB8A2258B0060096CF58 /* LaunchScreen.storyboard */; };
+		FFEDAB942258B1C00096CF58 /* GlobalConsts.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFEDAB932258B1C00096CF58 /* GlobalConsts.swift */; };
+		FFEDAB9A2258D2070096CF58 /* WaitingForTap.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFEDAB962258D2070096CF58 /* WaitingForTap.swift */; };
+		FFEDAB9B2258D2070096CF58 /* GameOver.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFEDAB972258D2070096CF58 /* GameOver.swift */; };
+		FFEDAB9C2258D2070096CF58 /* Pause.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFEDAB982258D2070096CF58 /* Pause.swift */; };
+		FFEDAB9D2258D2070096CF58 /* Playing.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFEDAB992258D2070096CF58 /* Playing.swift */; };
+		FFEDAB9F2258E4C80096CF58 /* GameMessageNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFEDAB9E2258E4C80096CF58 /* GameMessageNode.swift */; };
+		FFEDABA1225904400096CF58 /* GameStateBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFEDABA0225904400096CF58 /* GameStateBase.swift */; };
+		FFEDABA32259AFAD0096CF58 /* GameData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFEDABA22259AFAD0096CF58 /* GameData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		FFEDAB782258B0050096CF58 /* HoodleGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HoodleGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFEDAB7B2258B0050096CF58 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FFEDAB7D2258B0050096CF58 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
-		FFEDAB7F2258B0050096CF58 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
 		FFEDAB812258B0050096CF58 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		FFEDAB832258B0050096CF58 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		FFEDAB862258B0050096CF58 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FFEDAB882258B0060096CF58 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FFEDAB8B2258B0060096CF58 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FFEDAB8D2258B0060096CF58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFEDAB932258B1C00096CF58 /* GlobalConsts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlobalConsts.swift; sourceTree = "<group>"; };
+		FFEDAB962258D2070096CF58 /* WaitingForTap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WaitingForTap.swift; sourceTree = "<group>"; };
+		FFEDAB972258D2070096CF58 /* GameOver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameOver.swift; sourceTree = "<group>"; };
+		FFEDAB982258D2070096CF58 /* Pause.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pause.swift; sourceTree = "<group>"; };
+		FFEDAB992258D2070096CF58 /* Playing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Playing.swift; sourceTree = "<group>"; };
+		FFEDAB9E2258E4C80096CF58 /* GameMessageNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameMessageNode.swift; sourceTree = "<group>"; };
+		FFEDABA0225904400096CF58 /* GameStateBase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameStateBase.swift; sourceTree = "<group>"; };
+		FFEDABA22259AFAD0096CF58 /* GameData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,16 +73,30 @@
 			isa = PBXGroup;
 			children = (
 				FFEDAB7B2258B0050096CF58 /* AppDelegate.swift */,
-				FFEDAB7D2258B0050096CF58 /* GameScene.sks */,
-				FFEDAB7F2258B0050096CF58 /* Actions.sks */,
-				FFEDAB812258B0050096CF58 /* GameScene.swift */,
 				FFEDAB832258B0050096CF58 /* GameViewController.swift */,
+				FFEDAB812258B0050096CF58 /* GameScene.swift */,
+				FFEDABA22259AFAD0096CF58 /* GameData.swift */,
+				FFEDAB9E2258E4C80096CF58 /* GameMessageNode.swift */,
+				FFEDAB932258B1C00096CF58 /* GlobalConsts.swift */,
+				FFEDAB952258D2060096CF58 /* GameStates */,
 				FFEDAB852258B0050096CF58 /* Main.storyboard */,
 				FFEDAB882258B0060096CF58 /* Assets.xcassets */,
 				FFEDAB8A2258B0060096CF58 /* LaunchScreen.storyboard */,
 				FFEDAB8D2258B0060096CF58 /* Info.plist */,
 			);
 			path = HoodleGame;
+			sourceTree = "<group>";
+		};
+		FFEDAB952258D2060096CF58 /* GameStates */ = {
+			isa = PBXGroup;
+			children = (
+				FFEDABA0225904400096CF58 /* GameStateBase.swift */,
+				FFEDAB962258D2070096CF58 /* WaitingForTap.swift */,
+				FFEDAB992258D2070096CF58 /* Playing.swift */,
+				FFEDAB982258D2070096CF58 /* Pause.swift */,
+				FFEDAB972258D2070096CF58 /* GameOver.swift */,
+			);
+			path = GameStates;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -132,10 +158,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				FFEDAB872258B0050096CF58 /* Main.storyboard in Resources */,
-				FFEDAB7E2258B0050096CF58 /* GameScene.sks in Resources */,
 				FFEDAB892258B0060096CF58 /* Assets.xcassets in Resources */,
 				FFEDAB8C2258B0060096CF58 /* LaunchScreen.storyboard in Resources */,
-				FFEDAB802258B0050096CF58 /* Actions.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -146,8 +170,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FFEDABA1225904400096CF58 /* GameStateBase.swift in Sources */,
+				FFEDAB9A2258D2070096CF58 /* WaitingForTap.swift in Sources */,
+				FFEDAB9C2258D2070096CF58 /* Pause.swift in Sources */,
+				FFEDAB942258B1C00096CF58 /* GlobalConsts.swift in Sources */,
+				FFEDABA32259AFAD0096CF58 /* GameData.swift in Sources */,
 				FFEDAB822258B0050096CF58 /* GameScene.swift in Sources */,
+				FFEDAB9D2258D2070096CF58 /* Playing.swift in Sources */,
+				FFEDAB9B2258D2070096CF58 /* GameOver.swift in Sources */,
 				FFEDAB842258B0050096CF58 /* GameViewController.swift in Sources */,
+				FFEDAB9F2258E4C80096CF58 /* GameMessageNode.swift in Sources */,
 				FFEDAB7C2258B0050096CF58 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
